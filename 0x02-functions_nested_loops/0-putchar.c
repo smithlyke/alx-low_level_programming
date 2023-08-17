@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * a program that prints _putchar, followed by a new line.
@@ -13,8 +13,7 @@ int main(void)
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	_putchar
 
 	return (0);
 }
