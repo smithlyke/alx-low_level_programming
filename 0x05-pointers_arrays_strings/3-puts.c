@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * _puts - Write a function that prints a string, followed by a new line, to
@@ -8,13 +8,10 @@
  *
  */
 
-void _puts(char *str)
-{
-	int index;
-
-	for (index = 0; str[index] != '\0'; index++)
-	{
-		_putchar(str);
+void _puts(char *str){
+	while (*str ! = '\0'){
+	_putchar(*str);
+            str++;
 	}
 	_putchar('\n');
 }
