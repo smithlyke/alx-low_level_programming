@@ -1,4 +1,4 @@
-#include "main.h"
+#incude "main.h"
 
 /**
  * _puts - Write a function that prints a string, followed by a new line, to
@@ -11,7 +11,6 @@
 void _puts(char *str)
 {
 	int index;
-	int str[];
 
 	for (index = 0; str[index] != '\0'; index++)
 	{
