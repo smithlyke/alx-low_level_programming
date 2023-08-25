@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_rev - This function prints a reverse string
  *
@@ -6,13 +6,17 @@ include "main.h"
  */
 void print_rev(char *s)
 {
-	int index;
+	int index = 0;
+	int longi;
 
-	for (index = 0; s[index] != '\0'; index++)
-		;
-	for (index = index - 1; s[index] != '\0'; index--)
+	for (index = 0; index != '\0'; index++);
+	s++;
+	
+	for  (index = longi; longi > 0; longi--);	
+	s--;
 	{
-		_putchar(s[index]);
+		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
